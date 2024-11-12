@@ -24,7 +24,6 @@ def get_customer_input():
     active_member = int(input("Enter 0/1 if active member 1 or 0 if no: "))
     estimated_salary = float(input("Enter age: "))
     tenure = int(input("Enter tenure: "))
-    
     return [[credit_score, age, balance, products_number, credit_card, active_member, estimated_salary, tenure]]
 
 def predict_churn(model, customer_data):
